@@ -63,6 +63,7 @@
 h3 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    font-size: 44px;
 }
 
 p {
@@ -77,7 +78,12 @@ body {
 .img-fluid {
     max-width: 100%;
     height: auto;
+    padding: 20px;
 }
 .container {
     padding-top: 70px;
+}
+
+.col {
+    margin: 30px;
 }
