@@ -1,15 +1,37 @@
-p {
+.hero p {
     font-family: 'Libre Bodoni', serif;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #272142;
 }
 
-h1 {
-    font-family: 'Libre Bodoni', serif;
+.hero h1 {
+    font-family:  'Playfair Display';
     text-align: center;
     font-size: 30px;
+    font-size: 80px;
+    font-weight: bold;
 }
 
-body {
-    background-color: orange;
+.hero h2 {
+    text-align: center;
+    font-family: 'Playfair Display';
+    line-height: 2;
+    font-weight: normal;
+}
+
+.hero {
+    background: #f9f7fe;
+    text-align: center;
+}
+.btn-branding{
+    margin: 20px;
+    border-radius: 4px;
+    padding: 15px 30px;
+    background: #6c63ff;
+    color: white;
+    line-height: 27px;
+  font-size: 18px;
 }
