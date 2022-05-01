@@ -1,37 +1,83 @@
 .hero p {
-    font-family: 'Libre Bodoni', serif;
-    text-align: center;
-    padding-top: 150px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #272142;
+  font-family: "Libre Bodoni", serif;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #272142;
 }
 
 .hero h1 {
-    font-family:  'Playfair Display';
-    text-align: center;
-    font-size: 30px;
-    font-size: 80px;
-    font-weight: bold;
+  font-family: "Playfair Display";
+  text-align: center;
+  font-size: 30px;
+  font-size: 80px;
+  font-weight: bold;
 }
 
 .hero h2 {
-    text-align: center;
-    font-family: 'Playfair Display';
-    line-height: 2;
-    font-weight: normal;
+  text-align: center;
+  font-family: "Playfair Display";
+  line-height: 2;
+  font-weight: normal;
 }
 
 .hero {
-    background: #f9f7fe;
-    text-align: center;
+  background: #f9f7fe;
+  text-align: center;
 }
 .btn-branding{
-    margin: 20px;
+        background: #6c63ff;
     border-radius: 4px;
-    padding: 15px 30px;
-    background: #6c63ff;
     color: white;
+    font-size: 18px;
     line-height: 27px;
+    padding: 15px 30px;
+     transition: all 150ms ease-in-out;
+}
+.btn-branding-outline {
+  border-radius: 4px;
+  padding: 15px 30px;
+  line-height: 27px;
   font-size: 18px;
+  border: 1px solid #6c63ff;
+  color: #6c63ff;
+  transition: all 150ms ease-in-out;
+}
+
+@media (max-width:900px) {
+    h1 {
+        font-size: 44px;
+        line-height: 2;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    .project-description {
+    padding: 0;
+    text-align: center;
+}
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    padding-top: 70px;
 }
