@@ -1,20 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <p>
-        Hello, I'm
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a56b22975c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>My Software Portfolio</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top align-items-center shadow"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">S M E O</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="">Stella-Maris Ojideh</a>
+            <a class="nav-link" href="">Home</a>
+            <a class="nav-link" href="">About Me</a>
+            <a class="nav-link" href="">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <p>Hello, I'm</p>
+      <h1>Stella-Maris Ojideh</h1>
+      <h2 class="mb-5">Front-end Developer from London, UK 🇬🇧</h2>
+      <div>
+        <a href="#" class="btn btn-branding">Contact me</a>
+      </div>
+    </div>
+    <p class="text-center m-5 bold">
+      Here are some featured projects I've been working on
     </p>
-<h1>Stella-Maris Ojideh
-
-</h1>
-</body>
+    <div class="container">
+      <div class="row">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/weatherapp.png"
+            class="img-fluid rounded shadow"
+            alt=""
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h3 class="mb-5">Weather App</h3>
+            <p class="mb-5">
+              For this weather app I created a live weather application using
+              HTML, CSS, Open Weather API & Javascript to display for the
+              forecast in different locations. Including a 5 day forecast and a
+              current location button which will displayed the weather &
+              descriotion where ever you are. This has a default search in The
+              Bahamas, North America
+            </p>
+            <a
+              href="https://elastic-beaver-ed64c6.netlify.app/"
+              class="btn btn-branding-outline ="
+              >Launch App</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-desciption">
+            <h3 class="mb-5">Plants Landing Page</h3>
+            <p class="mb-5 text-muted">
+              For project was created using HTML, CSS, Javascript. The
+              inspiration behind this page was plants and different ways plants
+              help not only the planet but humans. The page also alerts and
+              engages with users.
+            </p>
+            <a
+              href="https://www.shecodes.io/workshops/shecodes-basics-6d9ccdc4-eeda-4d48-ba36-3d0d14341104/projects/626866"
+              class="btn btn-branding-outline"
+            >
+              Visit page
+            </a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/plants.png"
+            class="img-fluid rounded shadow"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="footer">
+      <p class="text-center m-4">
+        Please Note: This page will be continously updated and improved, however
+        if you wish to learn more about me then please visit the below page
+      </p>
+      <a href="#" class="btn btn-branding mb-5">About me</a>
+    </div>
+  </body>
 </html>
