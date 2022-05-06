@@ -134,7 +134,10 @@
     text-align: center;
   }
 
-  .contact-me-page {
-    font-size: 40px;
-  }
-  
+.navbar {
+  padding: 30px;
+}
+
+.nav-link {
+  margin-left: 15px;
+}
