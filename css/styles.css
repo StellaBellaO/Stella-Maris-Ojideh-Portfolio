@@ -186,3 +186,16 @@ footer .social-links a:hover {
 .github {
  color: white; 
 }
+
+.button-link {
+  text-align: center;
+  display: block;
+  color: white;
+  background: #6c63ff;
+ padding: 10px 0 10px;
+  line-height: 27px;
+}
+
+.weather-app {
+  padding-bottom: 45px;
+}
