@@ -208,3 +208,13 @@ footer .social-links a:hover {
   line-height: 27px;
   margin-top: 40px;
 }
+
+.third-link {
+  text-align: center;
+  display: block;
+  color: white;
+  background: #6c63ff;
+ padding: 10px 0 10px;
+  line-height: 27px;
+  margin-top: 10px;
+}
